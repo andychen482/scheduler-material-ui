@@ -315,6 +315,8 @@ export namespace Appointments {
   export type AppointmentProps = AppointmentsBase.AppointmentProps;
 }
 
+export function getContrastYIQ(hexcolor: any): string;
+
 export namespace Appointments {
   /** Properties passed to a component that renders the appointment content. */
   export type AppointmentContentProps = AppointmentsBase.AppointmentContentProps;
